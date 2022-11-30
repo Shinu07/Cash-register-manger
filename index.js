@@ -10,7 +10,7 @@ checkButton.addEventListener("click", function validateBillAndCashAmount() {
   hideMessage();
   if (billAmount.value > 0) {
     if (cashGiven.value >= billAmount.value) {
-      const amountToBeReturned = cashGiven.value - billAmount.value;
+      const amountToBeReturned =  billAmount.value - cashGiven.value;
       calculateChange(amountToBeReturned);
     } else {
       showMessage("Do you wanna wash plates?");
