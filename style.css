@@ -67,10 +67,16 @@ body {
   display: block;
 }
 
-#error-message {
-  display: block;
-  font-size: larger;
-  margin: 1rem 0 0;
+#emessage {
+  font-size: x-large;
+  margin: auto;
+  width: auto;
+  box-sizing: border-box;
+  border-radius: 2rem;
+  margin-top: 2.5rem;
+  padding: 1rem;
+  font-weight: bold;
+
 }
 
 /* TABLE */
