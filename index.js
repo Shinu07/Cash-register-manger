@@ -32,7 +32,6 @@ function calculateChange(amountToBeReturned) {
 
 function hideMessage() {
   message.style.display = "block";
-  
 }
 
 function showMessage(msg) {

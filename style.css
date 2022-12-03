@@ -50,7 +50,7 @@ hr{
 .input {
   font-size: 14px;
   outline: #fff;
-  padding: 0.6rem 1rem;
+  padding: 0.5rem 1rem;
   margin: 1rem;
   border: 2px solid var(--primary-color);
   width: 100%;
@@ -62,9 +62,25 @@ hr{
   background: var(--primary-color);
   border: none;
   color: #fff;
-  padding: 0.7rem 1rem;
+  padding: 0.7rem 2.5rem;
   border-radius: 0.5rem;
-  font-size: large;
+  font-size:medium ;
+  box-shadow: #0063d5 0.1rem 0.1rem 1rem 0rem;
+  cursor: pointer;
+  outline: #fff;
+  margin: auto;
+  margin-top: 1.2rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+#reload-button{
+  background: var(--primary-color);
+  border: none;
+  color: #fff;
+  padding: 0.7rem 2.5rem;
+  border-radius: 0.5rem;
+  font-size:medium ;
   box-shadow: #0063d5 0.1rem 0.1rem 1rem 0rem;
   cursor: pointer;
   outline: #fff;
