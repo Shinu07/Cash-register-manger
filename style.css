@@ -26,7 +26,7 @@ hr{
 
 /* CONTAINER */
 .container {
-  margin: 3.5rem auto 7rem;
+  margin: 4rem auto 7rem;
   text-align: center;
 }
 
@@ -73,7 +73,8 @@ hr{
 }
 
 #emessage {
-  font-size: x-large;
+  display: block;
+  font-size: large;
   margin: auto;
   width: auto;
   box-sizing: border-box;
@@ -85,6 +86,8 @@ hr{
 }
 
 /* TABLE */
+
+
 .change-table {
   background-color: #e7eff9;
   width: 50%;
