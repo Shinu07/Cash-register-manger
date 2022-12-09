@@ -26,7 +26,7 @@ hr{
 
 /* CONTAINER */
 .container {
-  margin: 4rem auto 7rem;
+  margin: 4rem auto 6rem;
   text-align: center;
 }
 
@@ -110,6 +110,8 @@ hr{
   text-align: justify;
   border-collapse: collapse;
   margin: auto;
+  overflow-x:auto;
+  
 }
 
 .change-table caption {
